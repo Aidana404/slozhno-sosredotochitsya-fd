@@ -5,13 +5,17 @@
 */
 
 :root.theme-dark {
-  --page-bg-image: url('../images/cover-image-dark.png');
+  --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: #000028;
   --min-block-size: 668px;
-  --title-color: #DB00FF;
- --accent-color: #FF0070;
-  --accent-contrast: #000028; 
-  --text-color: #F1B2CE;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --accent-contrast: #000028;
+  --text-color: #f1b2ce;
+  --nav-color: #ff0070; /*1*/
+  --section-title-color: #ff0070; /*2*/
 }
 
-
+.theme-dark .rec {
+  display: inline-flex;
+}

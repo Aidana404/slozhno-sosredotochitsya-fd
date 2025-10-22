@@ -28,10 +28,6 @@ ul {
   list-style: none;
 }
 
-html, body, .page {
-  overflow-x: clip;
-}
-
 picture {
   margin: 0;
   padding: 0;

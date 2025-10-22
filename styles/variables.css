@@ -3,27 +3,28 @@
   и их переопределение под различные устройства
 */
 :root {
-  --page-bg-image: url('../images/cover-image-dark.png');
+  --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: #000028;
   --min-block-size: 668px;
-  --title-color: #DB00FF;
+  --title-color: #db00ff;
   --container-padding: 10px;
-  --accent-color: #FF0070;
-  --accent-contrast: #000028; 
-  --text-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --accent-contrast: #000028;
+  --text-color: #f1b2ce;
+  --nav-color: #ff0070; /*1*/
+  --section-title-color: #ff0070; /*2*/
 }
 
 @media (min-width: 768px) {
   :root {
-    --container-padding: 20px;
     --min-block-size: 1024px;
+    --container-padding: 20px;
   }
 }
 
 @media (min-width: 1024px) {
   :root {
-    --container-padding: 20px;
     --min-block-size: 768px;
+    --container-padding: 20px;
   }
 }
-
