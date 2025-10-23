@@ -13,6 +13,7 @@
   --text-color: #f1b2ce;
   --nav-color: #ff0070; /*1*/
   --section-title-color: #ff0070; /*2*/
+  --link-color:
 }
 
 @media (min-width: 768px) {
@@ -25,6 +26,5 @@
 @media (min-width: 1024px) {
   :root {
     --min-block-size: 768px;
-    --container-padding: 20px;
   }
 }
